@@ -1,5 +1,5 @@
-var int = prompt("Enter a number!");
-
+var int = parseInt(prompt("Enter a number!"));
+var x = parseInt(int);
 function fizzbuzz(int){
 	for(var i = 1; i <= int; i++){
 		if(i % 3 == 0){
